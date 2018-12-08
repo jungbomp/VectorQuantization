@@ -24,6 +24,35 @@ The repository includes:
 * .RGB files are in the three channel or 24 bits, which 352x288 red bytes, followed by 352x288 green, and 352x288 blue.
 
 
+## Building Environment
+* Microsoft Window 10
+* Microsoft Visual Studio Community 2015 Version 14.0.25431.01 Update 3
+
+### Project Setting
+
+```bash
+All Configurations
+Project - Property page - Configuration Properties - C/C++ - Preprocessor Definitions - add _CRT_SECURE_NO_WARNINGS
+Project - Property page - Configuration Properties - General - Character Set - No Set
+Project - Property page - Configuration Properties - Commend Arguments - image1.rgb 64 1 (Optional. This option means the source Image name is image1.rgb and number of vectors is 64 and vector size is 2)
+```
+
+### Compile 
+```bash
+Set running configuration to Release
+Build - Build Solution
+```
+
+### Run
+```bash
+> %(Solution Dir)\Release\MyCompression.exe imagename numOfVector vecSize(1-(1x2), 2-(2x2), 3-(4x4))
+ex) >%(Solution Dir)\Release\MyCompression.exe image2.rgb 64 2
+```
+
+### Demo
+![Demo](demo.png)
+
+
 ### Status
 
 This is a second assignment of CSCI-576 Multimedia System Design, 2018 fall
