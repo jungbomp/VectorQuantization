@@ -46,7 +46,7 @@ Build - Build Solution
 ### Run
 ```bash
 > %(Solution Dir)\Release\MyCompression.exe imagename numOfVector vecSize(1-(1x2), 2-(2x2), 3-(4x4))
-ex) >%(Solution Dir)\Release\MyCompression.exe image2.rgb 64 2
+ex) > %(Solution Dir)\Release\MyCompression.exe image2.rgb 64 2
 ```
 
 ### Demo
