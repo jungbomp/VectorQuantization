@@ -9,9 +9,9 @@ Vector Quantization chooses best N vectors to express an image. Assume the size 
 
 
 ### Sample results
-![Vector Quantization with 64 vectors, size 2, and Gray scale Image](gray scale.png)
+![Vector Quantization with 64 vectors, size 2, and Gray scale Image](grayscale.png)
 
-![Vector Quantization with 64 vectors, size 2, and RGB 24 bits Image](screenshot02.png)
+![Vector Quantization with 64 vectors, size 2, and RGB 24 bits Image](3channel.png)
 
 The repository includes:
 * Source code
